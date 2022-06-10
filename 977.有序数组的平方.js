@@ -16,7 +16,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var sortedSquares = function(nums) {
+ var sortedSquares = function(nums) {
   let n = nums.length;
   let res = new Array(n).fill(0);
   let i = 0, j = n - 1, k = n -1;
